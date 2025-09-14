@@ -16,7 +16,7 @@ public class Abstraction {
 
     public static void main(String[] args) {
         Text obj = new Text1();
-        System.out.println(Text.str);
+        System.out.println(Text.str);  // this line without create object and directly print variable 
         obj.show();
 
     }
