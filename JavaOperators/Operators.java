@@ -13,6 +13,7 @@ public class Operators {
         System.out.println("addition : " + add + "\nsubraction : " + sub + "\nmultiplication : " + mul + "\ndivison : "
                 + div + "\nmoduls : " + mod);
         // -----------------------------------
+        //Relational operators 
         if (a == b) {
             System.out.println("equals ==");
         } else if (a != b) {
@@ -29,6 +30,7 @@ public class Operators {
             System.out.println("greater then equal >=");
         }
         // ---------------------------------------------
+        // logical operators 
         if (a == b && a != b) { // both true
             System.out.println("and operation &&");
         } else if (a == b || a != b) { // any one true
