@@ -20,6 +20,8 @@ public class MathBasic {
         System.out.println(Math.cbrt(27)); // return the double value 3.0
         System.out.println(Math.hypot(4, 6)); // 4^2 + 6^2 =16 + 36 = root of 52 -> 7.21110...
 
+        // logarithmic
+
     }
 
 }
