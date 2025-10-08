@@ -15,5 +15,8 @@ public class Random {
         int b = 360;
         System.out.println("Radians : " + Math.toRadians(b));
 
+        // math PI vale and E value
+        System.out.println("Pai value : " + Math.PI);
+        System.out.println("exponsal value : " + Math.E);
     }
 }
