@@ -8,7 +8,7 @@ public class MathClass {
         System.out.println("ceil :" + Math.ceil(a)); // return the double
 
         // absolue & sign
-        int x = 0;
+        int x = -2;
         System.out.println("absolute : " + Math.abs(x)); // converted the negative to positive value
         System.out.println("signma : " + Math.signum(x));
 

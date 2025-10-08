@@ -2,7 +2,7 @@ public class Random {
     public static void main(String[] args) {
         int a = 5;
 
-        int random = (int) (Math.random() * 10);
+        int random = (int) (Math.random() * 10); // the randoms is return the decimal value
 
         System.out.println(random);
 
