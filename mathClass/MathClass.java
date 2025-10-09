@@ -2,7 +2,7 @@ public class MathClass {
     public static void main(String[] args) {
         // mathametical function and contaits
         // without create a object becaues of all method is static
-        double a = 12.85;
+        double a = 12.01;
         System.out.println("round  :" + Math.round(a)); // return the int
         System.out.println("floor :" + Math.floor(a)); // not cosider the decimal value
         System.out.println("ceil :" + Math.ceil(a)); // return the double

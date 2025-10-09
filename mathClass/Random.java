@@ -18,5 +18,9 @@ public class Random {
         // math PI vale and E value
         System.out.println("Pai value : " + Math.PI);
         System.out.println("exponsal value : " + Math.E);
+
+        System.out.println("--------------------random value ---------------------");
+        int ran = (int) (Math.random() * 100); // 1 to 99
+        System.out.println(ran);
     }
 }
