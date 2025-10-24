@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ArrayBasic {
     public static void main(String[] args) {
         // array intialization
@@ -8,6 +10,8 @@ public class ArrayBasic {
         arr[1] = 3;
         arr[2] = 4;
         arr[3] = 5;
+
+        Scanner sc = new Scanner(System.in);
 
         // print
         for (int i = 0; i < arr.length; i++) {
