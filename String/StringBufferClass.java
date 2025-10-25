@@ -1,6 +1,7 @@
 public class StringBufferClass {
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer();
+        StringBuilder s = new StringBuilder();
         sb.append("suresh"); // concatenate
         sb.append(" t"); // concatenate string
         System.out.println(sb.delete(0, 1)); // delete the starting index and ending index
